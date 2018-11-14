@@ -1,0 +1,65 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+    body{
+        font-family: "Fira Sans";  
+        background-color: #F0ECEE;
+
+    }
+
+        button{
+            background-color: #ff4850;
+            padding: 10px;
+            border-radius: 15px;
+            display:block;
+            width:100%;
+            color: white;
+            font-family: "Fira Sans";
+        }
+
+        button:hover{
+            background-color: #CCC
+        }
+
+        .topnav-right {
+            float: right;
+          }
+
+          a{
+            text-decoration: none;
+            color:#88898B;
+
+        }
+        
+      #me,#adopting{
+          color: #ff4850;
+      }
+
+          nav ul li{
+            list-style-type: none;
+        }
+
+        @media only screen and (min-width: 768px) {
+            body {
+                background:url('images/bulldog.jpg') no-repeat bottom center fixed;
+                -webkit-background-size:cover;
+                -moz-background-size:cover;
+                -o-background-size:cover;
+                background-size:cover;
+            }
+            button{
+                width:auto;
+            }
+            nav{
+                display: flex;
+                justify-content: space-between;
+            }
+
+            ul{
+                display: flex;
+            }
+        }

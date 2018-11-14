@@ -1,0 +1,58 @@
+.clickbutton{
+    background-color: #ff4850
+}
+
+html{
+    background:url('images/bulldog.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover
+    -moz- background-size: cover
+    -o- background-size:cover
+    background-size:cover
+    } 
+
+    html{
+        background-color: #f0ecee;   
+        font-family: "Fira Sans";
+        font-weight: 600, 300, 400;
+        }
+
+nav li {
+    display: inline-block;
+}
+
+li {
+    float: left;
+}
+
+
+.topnav-right {
+    float: right;
+  }
+
+        nav{
+            height: 50px;
+        }
+        
+        nav ul li{
+            list-style-type: none;
+            width: 150px;
+            float: left;
+        }
+
+        li a{ 
+        text-decoration: none;
+        color: grey;
+        line-height: 50px;
+        border-right: 1px;
+        display: block;
+        font-family: Fira Sans;
+        float: right;
+        }
+
+        .w600 {
+        font-weight: 600;
+        }
+
+        .w300 {
+        font-weight: 300;
+        }
